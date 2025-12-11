@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+
+<head>
+
+   <meta charset="UTF-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>7 日逆轉脂肪肝實戰菜單</title>
+
+   <script src="https://cdn.tailwindcss.com"></script>
+
+   <style>
+
+       body {
+
+           font-family: 'Inter', 'Noto Sans TC', sans-serif;
+
+           -webkit-print-color-adjust: exact;
+
+       }
+
+       .printable-page {
+
+           max-width: 1024px;
+
+           margin: 2rem auto;
+
+           padding: 2.5rem;
+
+           background-color: white;
+
+           border-radius: 8px;
+
+           box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+       }
+
+       .day-card {
+
+           border: 1px solid #e2e8f0;
+
+           border-radius: 8px;
+
+           overflow: hidden;
+
+           transition: all 0.3s ease;
+
+       }
+
+       .day-card:hover {
+
+           box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+       }
+
+       .day-header {
+
+           background-color: #f8fafc;
+
+           border-bottom: 1px solid #e2e8f0;
+
+       }
+
+       .meal-icon {
+
+           width: 24px;
+
+           height: 24px;
+
+           margin-right: 8px;
+
+       }
+
+       .print-button {
+
+           background-color: #10B981; /* Green 500 */
+
+           color: white;
+
+           padding: 10px 20px;
+
+           border-radius: 8px;
+
+           font-weight: bold;
+
+           cursor: pointer;
+
+           transition: background-color 0.3s;
+
+       }
+
+       .print-button:hover {
+
+           background-color: #059669; /* Green 600 */
+
+       }
+
+       @media print {
+
+           body {
+
+               background-color: white;
+
+               margin: 0;
+
+               padding: 0;
+
+           }
+
+           .printable-page {
+
+               box-shadow: none;
+
+               margin: 0;
+
+               padding: 1rem;
+
+               max-width: 100%;
+
+           }
+
+           .no-print {
+
+               display: none;
+
+           }
+
+       }
+
+   </style>
+
+</head>
+
+<body class="bg-gray-100">
+
+
+
+   <div class="printable-page">
+
+       <!-- 頁首與標題 -->
+
+       <header class="text-center mb-10">
+
+           <div class="flex justify-between items-center mb-6">
+
+               <span class="text-lg font-bold text-green-700">付費會員專屬內容</span>
+
+               <button onclick="window.print()" class="no-print print-button">
+
+                   列印此菜單
+
+               </button>
+
+           </div>
+
+           <h1 class="text-4xl font-bold text-gray-800 mb-2">7 日逆轉脂肪肝實戰菜單</h1>
+
+           <p class="text-lg text-gray-600">從「知道」到「做到」，開始您的逆轉之旅。</p>
+
+       </header>
+
+
+
+       <!-- 核心原則 -->
+
+       <section class="mb-10 bg-green-50 p-6 rounded-lg border border-green-200">
+
+           <h2 class="text-2xl font-bold text-green-800 mb-4">開始前的核心原則</h2>
+
+           <p class="text-gray-700 mb-4">此菜單基於「地中海飲食」改良，專注於減少肝臟負擔並啟動修復。請記住四大原則：</p>
+
+           <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+               <li class="flex items-start">
+
+                   <span class="text-green-500 mr-2">✔</span> <strong>戒除糖飲，告別果糖：</strong> 這是逆轉的第一步。只喝水、無糖茶或黑咖啡。
+
+               </li>
+
+               <li class="flex items-start">
+
+                   <span class="text-green-500 mr-2">✔</span> <strong>選「好」碳水：</strong> 用糙米、藜麥、地瓜取代白飯、麵包、麵條。
+
+               </li>
+
+               <li class="flex items-start">
+
+                   <span class="text-green-500 mr-2">✔</span> <strong>擁抱「好」油脂：</strong> 使用橄欖油，並從堅果、酪梨、深海魚（如鮭魚）中攝取好脂肪。
+
+               </li>
+
+               <li class="flex items-start">
+
+                   <span class="text-green-500 mr-2">✔</span> <strong>足量蔬菜與瘦蛋白：</strong> 蔬菜應佔每餐的一半，搭配優質蛋白質（雞、魚、豆腐）。
+
+               </li>
+
+           </ul>
+
+       </section>
+
+
+
+       <!-- 7 日菜單表格 -->
+
+       <section class="mb-10">
+
+           <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">一週實戰菜單</h2>
+
+           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+              
+
+               <!-- Day 1 -->
+
+               <div class="day-card">
+
+                   <div class="day-header p-4">
+
+                       <h3 class="text-xl font-bold text-green-700">Day 1：啟動日</h3>
+
+                   </div>
+
+                   <div class="p-5 space-y-4">
+
+                       <p><strong>早餐：</strong> 希臘優格 (無糖) + 1 拳頭藍莓 + 1 湯匙堅果碎</p>
+
+                       <p><strong>午餐：</strong> 雞胸肉藜麥沙拉 (佐橄欖油與檸檬汁) + 1 顆茶葉蛋</p>
+
+                       <p><strong>晚餐：</strong> 香煎鮭魚 (150g) + 清炒綠花椰菜 + 半碗糙米飯</p>
+
+                   </div>
+
+               </div>
+
+
+
+               <!-- Day 2 -->
+
+               <div class="day-card">
+
+                   <div class="day-header p-4">
+
+                       <h3 class="text-xl font-bold text-green-700">Day 2：習慣日</h3>
+
+                   </div>
+
+                   <div class="p-5 space-y-4">
+
+                       <p><strong>早餐：</strong> 全麥吐司 1 片 + 半顆酪梨 + 1 顆水煮蛋 + 黑咖啡</p>
+
+                       <p><strong>午餐：</strong> [外食] 健康自助餐 (2 份蔬菜 + 1 份蒸魚 + 半碗糙米飯)</p>
+
+                       <p><strong>晚餐：</strong> 蔬菜豆腐湯 (板豆腐、香菇、大白菜、海帶) + 1 顆小地瓜</p>
+
+                   </div>
+
+               </div>
+
+
+
+               <!-- Day 3 -->
+
+               <div class="day-card">
+
+                   <div class="day-header p-4">
+
+                       <h3 class="text-xl font-bold text-green-700">Day 3：代謝日</h3>
+
+                   </div>
+
+                   <div class="p-5 space-y-4">
+
+                       <p><strong>早餐：</strong> 燕麥片 (無糖) 泡無糖豆漿 + 1 根香蕉</p>
+
+                       <p><strong>午餐：</strong> [自備] 隔夜便當 (昨日的蔬菜豆腐湯 + 雞腿肉)</p>
+
+                       <p><strong>晚餐：</strong> 薑絲清蒸鱸魚 + 蒜炒菠菜 + 半碗紫米飯</p>
+
+                   </div>
+
+               </div>
+
+
+
+               <!-- Day 4 -->
+
+               <div class="day-card">
+
+                   <div class="day-header p-4">
+
+                       <h3 class="text-xl font-bold text-green-700">Day 4：堅持日</h3>
+
+                   </div>
+
+                   <div class="p-5 space-y-4">
+
+                       <p><strong>早餐：</strong> 茶葉蛋 2 顆 + 無糖豆漿 1 瓶</p>
+
+                       <p><strong>午餐：</strong> [外食] 雞肉沙拉 (醬汁另放) + 1 份地瓜 (便利商店)</p>
+
+                       <p><strong>晚餐：</strong> 義式香料烤雞腿排 + 烤甜椒與櫛瓜 (淋橄欖油)</p>
+
+                   </div>
+
+               </div>
+
+
+
+               <!-- Day 5 -->
+
+               <div class="day-card">
+
+                   <div class="day-header p-4">
+
+                       <h3 class="text-xl font-bold text-green-700">Day 5：活力日</h3>
+
+                   </div>
+
+                   <div class="p-5 space-y-4">
+
+                       <p><strong>早餐：</strong> 希臘優格 (無糖) + 1 份奇異果 + 1 湯匙奇亞籽</p>
+
+                       <p><strong>午餐：</strong> [自備] 隔夜便當 (昨日的烤雞腿與蔬菜)</p>
+
+                       <p><strong>晚餐：</strong> [外食] 清湯涮涮鍋 (大量蔬菜 + 1 份鯛魚片，不喝湯，醬料用醬油+蘿蔔泥)</p>
+
+                   </div>
+
+               </div>
+
+
+
+               <!-- Day 6 -->
+
+               <div class="day-card">
+
+                   <div class="day-header p-4">
+
+                       <h3 class="text-xl font-bold text-green-700">Day 6：家庭日</h3>
+
+                   </div>
+
+                   <div class="p-5 space-y-4">
+
+                       <p><strong>早餐：</strong> 蔬菜烘蛋 (菠菜、蘑菇) + 1 片全麥吐司 + 無糖拿鐵</p>
+
+                       <p><strong>午餐：</strong> 蝦仁炒糙米飯 (加入毛豆、玉米、洋蔥) + 涼拌木耳</p>
+
+                       <p><strong>晚餐：</strong> 滷牛腱 (清滷) + 炒A菜 + 半碗糙米飯</p>
+
+                   </div>
+
+               </div>
+
+
+
+               <!-- Day 7 -->
+
+               <div class="day-card">
+
+                   <div class="day-header p-4">
+
+                       <h3 class="text-xl font-bold text-green-700">Day 7：備戰日</h3>
+
+                   </div>
+
+                   <div class="p-5 space-y-4">
+
+                       <p><strong>早餐：</strong> 全麥吐司 1 片 + 炒蛋 + 1 杯無糖豆漿</p>
+
+                       <p><strong>午餐：</strong> [自備] 隔夜便當 (昨日的滷牛腱與A菜)</p>
+
+                       <p><strong>晚餐：</strong> 番茄蔬菜燉雞湯 (番茄、洋蔥、高麗菜、雞腿肉) + 1 顆小地瓜</p>
+
+                   </div>
+
+               </div>
+
+
+
+           </div>
+
+       </section>
+
+
+
+       <!-- 兩大工具包 -->
+
+       <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+
+           <!-- 工具包 1: 外食族生存指南 -->
+
+           <div class="bg-blue-50 p-6 rounded-lg border border-blue-200">
+
+               <h2 class="text-2xl font-bold text-blue-800 mb-4">外食族生存指南 (Bonus)</h2>
+
+               <ul class="space-y-3 text-gray-700">
+
+                   <li><strong>便利商店：</strong>
+
+                       <ul class="list-disc list-inside ml-4">
+
+                           <li><strong>早餐：</strong> 無糖豆漿 + 茶葉蛋 + 地瓜</li>
+
+                           <li><strong>午餐：</strong> 雞肉沙拉 (醬減半) + 1 份水果盒</li>
+
+                       </ul>
+
+                   </li>
+
+                   <li><strong>自助餐：</strong>
+
+                       <ul class="list-disc list-inside ml-4">
+
+                           <li>選 2-3 樣清炒蔬菜 + 1 份蒸/滷/烤的瘦肉 (雞、魚)。</li>
+
+                           <li>主食選糙米飯 (半碗)。</li>
+
+                           <li><strong>避開：</strong> 油炸、勾芡 (如燴飯)、加工品 (香腸、丸子)。</li>
+
+                       </ul>
+
+                   </li>
+
+                   <li><strong>麵攤/小吃：</strong>
+
+                       <ul class="list-disc list-inside ml-4">
+
+                           <li>點「湯麵」不如點「乾麵」 (避免喝光高鈉湯底)。</li>
+
+                           <li>必點一份燙青菜 (不淋肉燥) + 滷蛋/滷豆腐。</li>
+
+                       </ul>
+
+                   </li>
+
+               </ul>
+
+           </div>
+
+
+
+           <!-- 工具包 2: 一週採買清單 -->
+
+           <div class="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+
+               <h2 class="text-2xl font-bold text-yellow-800 mb-4">一週採買清單 (Bonus)</h2>
+
+               <div class="space-y-3 text-gray-700">
+
+                   <p><strong>蛋白質：</strong> 雞胸肉、去骨雞腿排、鮭魚、鱸魚、鯛魚片、雞蛋、板豆腐、無糖豆漿、無糖希臘優格</p>
+
+                   <p><strong>好油脂：</strong> 特級初榨橄欖油、酪梨、綜合堅果 (無調味)、奇亞籽</p>
+
+                   <p><strong>全穀物：</strong> 糙米、藜麥、燕麥片、全麥吐司、地瓜</p>
+
+                   <p><strong>蔬菜水果：</strong>
+
+                       <ul class="list-disc list-inside ml-4">
+
+                           <li><strong>常備：</strong> 洋蔥、大蒜、薑</li>
+
+                           <li><strong>葉菜：</strong> 菠菜、A菜、大白菜、高麗菜</li>
+
+                           <li><strong>根莖/花果：</strong> 綠花椰菜、甜椒、櫛瓜、番茄、香菇、木耳</li>
+
+                           <li><strong>冷凍：</strong> 藍莓 (冷凍)、毛豆</li>
+
+                           <li><strong>水果：</strong> 奇異果、香蕉、蘋果 (適量)</li>
+
+                       </ul>
+
+                   </p>
+
+               </div>
+
+           </div>
+
+       </section>
+
+
+
+       <!-- 結尾與免責聲明 -->
+
+       <footer class="text-center mt-10 border-t pt-6">
+
+           <p class="text-sm text-gray-500">
+
+               <strong>免責聲明：</strong> 此菜單為健康飲食建議，並非醫療處方。
+
+               <br>
+
+               每個人體質不同，若您有糖尿病、腎臟病或其他慢性疾病，請在諮詢您的醫師或營養師後再行調整。
+
+           </p>
+
+           <p class="text-sm text-gray-400 mt-2">© 2025 (您的品牌) 付費會員專屬內容</p>
+
+       </footer>
+
+   </div>
+
+
+
+</body>
+
+</html>
